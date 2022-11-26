@@ -59,6 +59,25 @@ a{
 	transform: scale(1.06);
 	transition: 0.3s ease-in;
    }
-  .playmore{
-	background: linear-gradient(to right,purple,hotpink);
-  }
+.playmore{
+	background: linear-gradient(to right,rgb(203, 59, 203),rgb(255, 0, 128));
+	/* box-shadow: 12px 13px transparent; */
+	cursor: pointer;
+	transition: 0.5s ease;
+
+}
+.playmore h1{
+	font-weight: 700;
+	color: #212121;
+	text-align: center;
+}
+.playmore:hover{
+	box-shadow: 12px 13px #fff;
+	transition: 0.5s ease;
+	border-radius: 10px;
+	
+	background: linear-gradient(to left,rgb(203, 59, 203),rgb(255, 0, 128));
+}
+.playmore h1:hover{
+	color:#fff;
+}
