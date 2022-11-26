@@ -1,0 +1,20 @@
+.contents{
+	gap: 2%;
+   }
+   .contents img{
+	width: 250px;
+	height: 48%;
+	margin-top: 4%;
+	border-radius: 10px;
+	transition: 0.3s ease-out;
+   }
+.contents img:hover{
+	box-shadow: 0 10px #fff;
+	transform: scale(1.06);
+	transition: 0.3s ease-in;
+   }
+.contents img:nth-child(10):hover{
+	box-shadow: 10px 10px #7bce60;
+	transform: scale(1.06);
+	transition: 0.3s ease-in;
+   }

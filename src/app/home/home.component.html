@@ -1,0 +1,142 @@
+
+  <section class="d-flex w-100 flex-column hero">
+	<span class="w-100 h-100 d-flex align-items-center justify-content-center hero__box">
+	  <span class="text-white rounded-3 hero__box--text box-2">
+		<h1 class="display-4 he">Welcome to The Universe of <br> Games and Gamers</h1>
+	  </span>
+	</span>
+  </section>
+  <section class="d-flex flex-column align-items-center justify-content-center slide__main">
+	<div class="display-3 latest">Trending Games</div>
+	<div class="d-flex align-items-center justify-content-center  box" >
+	  <div class="card"  style="width: 600px;">
+	
+	  </div>
+	  <div class="card">
+		<img src="/assets/img/sonic.webp" alt="" class="card-img-top rounded-5">
+	  </div>
+	<div class="card">
+	
+	<img src="/assets/img/god of war.jpg" alt="" class="card-img-top rounded-3">
+	</div>
+	<div class="card" >
+	  <img src="/assets/img/football.webp" alt="" class="card-img-top rounded-3">
+	</div>
+	<div class="card">
+	  <img src="/assets/img/gta.jpg" alt="" class="card-img-top rounded-3">
+	</div>
+	<div class="card">
+	  <img src="/assets/img/pub.webp" alt="" class="card-img-top rounded-3">
+	</div>
+	<div class="card">
+	 
+	  <img src="/assets/img/cricket.webp" alt="" class="card-img-top rounded-3">
+	</div>
+	<div class="card">
+	  <img src="/assets/img/nfs.webp" alt="" class="card-img-top rounded-3">
+	</div> 
+	</div>
+  </section>
+  <section class="w-100 d-flex flex-column align-items-center justify-content-center img-slider">
+	  <div class=" w-100 try h-20 d-flex align-items-center justify-content-center fw-bold">
+		<h1 >Explore More Games</h1>
+	  </div>
+	  <div class="w-100 h-80 d-flex flex-wrap align-items-center justify-content-evenly container-box">
+		<span class="d-flex flex-column align-items-center justify-content-evenly mt-3">
+		 <h1>Simulation</h1>
+		 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae.</p>
+		 <a href="#sim"><button class="btn__show btn btn-primary">See more</button></a>
+		</span>
+		<span class="d-flex flex-column align-items-center justify-content-evenly mt-3">
+		  <h1>Role Playing</h1>
+		  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae.</p>
+		  <a href="#role"><button class="btn__show btn btn-primary">See more</button></a>
+		</span>
+		<span class=" d-flex flex-column align-items-center justify-content-evenly mt-3">
+		  <h1>Multiplayer</h1>
+		  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores, recusandae.</p>
+		  <a href="#multi"><button class="btn__show btn btn-primary">See more</button></a>
+		</span>
+	  </div>
+  </section>
+  <section class="catogory py-5" id="catogory">
+	<div class="heading__cat w-100 py-3  px-2 d-flex align-items-center justify-content-center">
+	  <h1>CHOOSE YOUR GAME BY GENRE</h1>
+	</div>
+	  <span class="d-flex  menu fw-bold align-items-center flex-wrap justify-content-evenly px-2 py-3 fs-4">
+		<a href="#sim" class="rounded-2 text-white "><li class="nav fs-5">{{genre1}}</li></a>
+		<a href="#role" class="rounded-2 text-white"><li class="nav fs-5">{{genre2}}</li></a>
+		<a href="#sports" class="rounded-2 text-white"><li class="nav fs-5">{{genre3}}</li></a>
+		<a href="#multi" class="rounded-2 text-white"><li class="nav fs-5">{{genre4}}</li></a>
+		<a href="#strategy" class="rounded-2 text-white"><li class="nav fs-5">{{genre5}}</li></a>
+	 </span>
+	 
+	<div class="contents w-100 flex-wrap d-flex align-items-center justify-content-center" id="sim">
+  
+	<app-catogory1></app-catogory1> 
+	<app-catogory></app-catogory>
+	<app-catogory3></app-catogory3>
+	<app-catogory2></app-catogory2>
+	<app-catogory4></app-catogory4>
+	</div>
+  </section>
+  
+  
+  
+  <section class="d-flex align-items-center justify-content-center flex-wrap response">
+   <span class="w-50 img-1 d-flex align-items-center p-5 justify-content-center">
+	<img src="/assets/img/goblin.png"  alt="">
+   </span>
+   <span class=" d-flex py-5 justify-content-center align-items-center  flex-column" style="width: 720px;">
+	<h1 class="fw-bold comu text-center" style="color: #04123b;">Find a community</h1>
+	<p class=" text-center" style="color: #04123b;">Lorem ipsum dolor sit amet consectetur adipisicing elit.  Excepturi ex  eligendi <br> nemo  neque ipsa facere voluptatum, temporibus distinctio enim sequi!</p>
+	<button class="btn btn-lg button" >Explore community</button>
+   </span>
+   
+  </section>
+  <section class="w-100 py-5 d-flex align-items-center justify-content-center" style="background-image: url('/assets/img/bg2home.jpg');background-size: cover;background-position: center; height: 500px;">
+	<span class=" w-fit d-flex align-items-center text-center p-1 justify-content-center flex-column flex-wrap gap-3">
+		<h1 class="display-1 fw-bold text-white">WHAT ARE YOU WAITING FOR?</h1>
+		<p class="fs-4 text-white">Get Santhosh-gaming and create your dream community today!</p>
+		<button class="btn btn-lg getstarted d-flex align-items-center justify-content-center gap-2">
+			<fa-icon [icon]="farocket" class="farocket"> </fa-icon>GET STARTED</button>
+	</span>
+  </section>
+  <!-- <section class="d-flex align-items-center justify-content-center gap-3 " style="height: 200px;">
+	
+	<i class="fab fa-twitter fa-3x"></i>
+	<i class="fab fa-twitter fa-3x"></i>
+	<i class="fab fa-twitter fa-3x"></i>
+	<i class="fab fa-twitter fa-3x"></i>
+  
+  </section> -->
+  <footer class="w-100 bg-dark d-flex  align-items-center justify-content-center">
+  
+   <span class="d-flex align-items-center w-100 gap-3 justify-content-center">
+	<img
+	width="90"
+	alt="Angular Logo"
+	src="/assets/img/x.png"
+	/>
+	<h1 class="text-white mt-3">Santhosh Gaming</h1>
+   </span>
+   <span class="d-flex align-items-center gap-3 justify-content-start">
+	<p class="text-white">Website ©2022 santhosh-technologies In Limited. All content, games titles, trade names and/or trade dress, trademarks, artwork and associated imagery are trademarks and/or copyright material of their respective owners. All rights reserved.</p>
+   </span>
+  <!-- <div class="w-50 gap-4 d-flex align-items-center justify-content-center">
+  
+   <span class="w-30 d-flex text-white flex-column align-items-center justify-content-start" >
+	<h4 class="text-primary">Help</h4>
+	<p>Support</p>
+	<p>Troubleshooting</p>
+	<p>license</p>
+   </span>
+   <span class="w-30 d-flex text-white flex-column align-items-center justify-content-start" >
+	<h5 class="text-primary">© <a href="">Santhosh-Technologies</a></h5>
+	<p>About Us</p>
+	<p>terms and conditions</p>
+	<p>Privacy policy</p>
+   </span>ng <i class="fa fa-server" aria-hidden="true"></i>
+  </div> -->
+  </footer>
+  

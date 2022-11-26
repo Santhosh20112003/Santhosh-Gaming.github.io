@@ -1,0 +1,49 @@
+.img:hover{
+	transform: rotate(-25deg); 
+	transition: 0.3s ease-in;
+	box-shadow: 0 0 10px #212121;
+	border-radius: 50%;
+  }
+.img{
+	transition: 0.3s ease;
+}
+a{
+	text-decoration: none;
+}
+.hero-1{
+	background-image: url("/assets/img/wol.jpg");
+	background-size: cover;
+	background-position: center;
+	background-origin: border-box;
+	margin-top: -100px;
+	height: 600px;
+	width: 100%;
+	min-width: 500px;
+	z-index: -1;	
+}
+.hero-1 h1{
+	font-size: 8rem;
+	letter-spacing: 20px;
+	color: #fff;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contents{
+	gap: 2%;
+   }
+   .contents img{
+	width: 250px;
+	height: 48%;
+	margin-top: 4%;
+	border-radius: 10px;
+	transition: 0.3s ease-out;
+   }
+   .contents img:hover{
+	box-shadow: 0 10px #fff;
+	transform: scale(1.06);
+	transition: 0.3s ease-in;
+   }
+   .contents img:nth-child(10):hover{
+	box-shadow: 10px 10px #7bce60;
+	transform: scale(1.06);
+	transition: 0.3s ease-in;
+   }
