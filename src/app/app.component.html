@@ -1,8 +1,8 @@
-<!-- <div class="w-100 d-flex align-items-center justify-content-center flex-column"> -->
-<div class="toolbar w-100 gap-5 flex-wrap justify-content-evenly" role="banner">
+
+<div class="toolbar" role="banner">
 	<span class="d-flex fw-bold justify-content-center align-items-center gap-5 fs-4">
-		<li class="nav" id="home" routerLink="/home" routerLinkActive="clicked">Home</li>
-		  <li class="nav" id="game" routerLink="/games" routerLinkActive="clicked">All Games</li>
+		<li class="nav n" id="home" routerLink="/home" routerLinkActive="clicked">Home</li>
+		  <li class="nav n" id="game" routerLink="/games" routerLinkActive="clicked">All Games</li>
 	  </span>
 	  <span class="d-flex align-items-center gap-3 justify-content-center" (click)="parent()">
 	   <img
@@ -14,11 +14,17 @@
 	  <h1 class="mt-3 heading">Santhosh Gaming</h1>
   </span>
   <span class="d-flex fw-bold justify-content-center align-items-center gap-5 mt-2 fs-4">
-	<li class="nav" id="game" routerLink="/instant" routerLinkActive="clicked">Instant Games</li>
-	<li class="nav" id="game" routerLink="/community" routerLinkActive="clicked">Community</li>
+	<li class="nav n" id="game" routerLink="/instant" routerLinkActive="clicked">Instant Games</li>
+	<li class="nav n" id="game" routerLink="/community" routerLinkActive="clicked">Community</li>
   </span>
   </div>
-  <svg id="wave" style="transform:rotate(180deg);z-index: 5;min-width: 500px;" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <section class=" align-items-center py-3 justify-content-around mobileview" >
+	<li class="nav fs-6" id="home" routerLink="/home" routerLinkActive="clickedbox">Home</li>
+	<li class="nav fs-6" id="game" routerLink="/games" routerLinkActive="clickedbox">All Games</li>
+	<li class="nav fs-6" id="game" routerLink="/instant" routerLinkActive="clickedbox">Instant Games</li>
+	<li class="nav fs-6" id="game" routerLink="/community" routerLinkActive="clickedbox">Community</li>
+  </section>
+<svg id="wave" style="transform:rotate(180deg);" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(25, 118, 210, 1)" offset="0%"></stop><stop stop-color="rgba(25, 118, 210, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,20L360,60L720,50L1080,90L1440,40L1800,50L2160,70L2520,70L2880,40L3240,80L3600,90L3960,20L4320,10L4680,60L5040,0L5400,80L5760,60L6120,10L6480,30L6840,50L7200,20L7560,60L7920,70L8280,30L8640,60L8640,100L8280,100L7920,100L7560,100L7200,100L6840,100L6480,100L6120,100L5760,100L5400,100L5040,100L4680,100L4320,100L3960,100L3600,100L3240,100L2880,100L2520,100L2160,100L1800,100L1440,100L1080,100L720,100L360,100L0,100Z"></path><defs><linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(25, 118, 210, 1)" offset="0%"></stop><stop stop-color="rgba(25, 118, 210, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)" d="M0,0L360,80L720,30L1080,20L1440,60L1800,90L2160,60L2520,70L2880,70L3240,30L3600,30L3960,80L4320,30L4680,40L5040,10L5400,10L5760,90L6120,40L6480,10L6840,20L7200,0L7560,90L7920,10L8280,40L8640,60L8640,100L8280,100L7920,100L7560,100L7200,100L6840,100L6480,100L6120,100L5760,100L5400,100L5040,100L4680,100L4320,100L3960,100L3600,100L3240,100L2880,100L2520,100L2160,100L1800,100L1440,100L1080,100L720,100L360,100L0,100Z"></path>
 </svg>
 

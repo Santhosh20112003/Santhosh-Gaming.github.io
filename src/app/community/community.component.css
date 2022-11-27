@@ -1,4 +1,8 @@
 .hero-1{
+	width:100%; 
+	display: flex;
+	align-items: center ;
+	justify-content: center;
 	background-image: url("/assets/img/h.jpeg");
 	background-size: cover;
 	background-position: center;
@@ -6,13 +10,56 @@
 	margin-top: -100px;
 	height: 600px;
 	width: 100%;
-	min-width: 500px;
 	z-index: -1;	
 }
 .hero-1 h1{
 	font-size: 8rem;
 	letter-spacing: 20px;
 	color: #fff;
-	text-shadow: 2px 2px 20px #212121;
 	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contents{
+	gap: 2%;
+   }
+   .contents img{
+	width: 250px;
+	height: 48%;
+	margin-top: 4%;
+	border-radius: 10px;
+	transition: 0.3s ease-out;
+   }
+   .contents img:hover{
+	box-shadow: 0 10px #fff;
+	transform: scale(1.06);
+	transition: 0.3s ease-in;
+   }
+   .contents img:nth-child(10):hover{
+	box-shadow: 10px 10px #7bce60;
+	transform: scale(1.06);
+	transition: 0.3s ease-in;
+   }
+   @media (min-width:0) and (max-width:815px){
+	.hero-1 h1{
+		text-align: center;
+		font-size: 3rem;
+		text-shadow: 10px 5px 10px #21212180;
+		letter-spacing: 10px;
+		color: #fff;
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+   }
+   @media (max-width:483px){
+	.hero-1{
+	  margin-top: -26px;
+	  height: 400px;
+	  background-size: cover;
+	  /* background-position: -100px -20px; */
+	 
+	}
+  }
+  @media (min-width: 484px) and (max-width: 1166px) { 
+	.hero-1{
+	  margin-top: -30px;
+	
+	}
 }

@@ -24,6 +24,7 @@
 
   .he{
 	font-family: 'Lexend', sans-serif;
+	
   }
 	.toolbar {
 	  width: 100%;
@@ -73,10 +74,10 @@
 	width: 100%;
 	height: 600px;
 	margin-top: -100px;
-	display: flex;
-	min-width: 500px;
+	display: flex;	
 	align-items: flex-end;
 	justify-content: center;
+	background-size: cover;
 	background-image: url("/assets/img/banner crop.png");
 	background-position: center;
   }
@@ -90,15 +91,13 @@
 	border-bottom: 3px solid #04123b;
 	transition: 0.3s ease-in;
   }
-  .hero__box{
-	margin-bottom: -40%;
-  }
   .latest{
 	font-family: 'Righteous', cursive;
   }
   .hero__box--text{
 	width: 70%;
 	height: 200px;
+	margin-bottom: -7%;
 	text-align: center;
 	padding: 4%;
 	display: flex;
@@ -379,6 +378,22 @@
 		background-color: #212121;
 	  }
 	}
-	
+	@media(min-width:0) and (max-width:1100px) {
+
+		.con{
+          display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  justify-content: space-evenly;
+		  width: 100%;
+		  height: max-content;
+		  padding: 2%;
+		  width: 100%;
+		}
+		.op1 p{
+			width: 100%;
+			padding: none;
+		}
+	}
   
   

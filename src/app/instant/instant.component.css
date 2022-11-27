@@ -7,9 +7,7 @@
 .img{
 	transition: 0.3s ease;
 }
-a{
-	text-decoration: none;
-}
+
 .hero-1{
 	background-image: url("/assets/img/p.webp");
 	background-size: cover;
@@ -75,9 +73,44 @@ a{
 	box-shadow: 12px 13px #fff;
 	transition: 0.5s ease;
 	border-radius: 10px;
-	
+	color: #fff;
+	background: linear-gradient(to left,rgb(203, 59, 203),rgb(255, 0, 128));
+
+}
+.moregames:hover{
+	box-shadow: 12px 13px #fff;
+	transition: 0.5s ease;
+	border-radius: 10px;
+	color: #fff;
 	background: linear-gradient(to left,rgb(203, 59, 203),rgb(255, 0, 128));
 }
-.playmore h1:hover{
-	color:#fff;
+.moregames:hover .v{
+	color: #fff;
+}
+.moregames{
+	margin-top: 5%;
+	text-decoration: none;
+}
+
+@media (min-width:0) and (max-width:815px){
+	.hero-1 h1{
+		text-align: center;
+		font-size: 4rem;
+		letter-spacing: 20px;
+		color: #fff;
+		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+   }
+   @media (max-width:483px){
+	.hero-1{
+	  margin-top: -26px;
+	  background-size: cover;
+	  
+	}
+  }
+  @media (min-width: 484px) and (max-width: 1166px) { 
+	.hero-1{
+	  margin-top: -30px;
+	
+	}
 }
