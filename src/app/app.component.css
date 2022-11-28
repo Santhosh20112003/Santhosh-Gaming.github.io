@@ -164,7 +164,41 @@
 	display: none;
 	background-color: #1976d2;
 }
-
+.bot{
+	width: 70px;
+	height:70px;
+	border-radius: 50%;
+	/* background: linear-gradient(to right, #000066 0%, #9900cc 100%); */
+	
+	background: linear-gradient(to bottom right, #000066 22%, #3399ff 85%);
+	 position:fixed;
+	 bottom:20px;
+	 right:20px;
+	 z-index: 10;
+	 transition: 0.1s ease;
+}
+.topbutton{
+	width: 50px;
+	height:50px;
+	border-radius: 20%;
+	 background-color: #04123b;
+	 position:fixed;
+	 bottom:20px;
+	 left:20px;
+	 z-index: 10;
+	 transition: 0.1s ease;
+}
+.topbutton:active{
+	box-shadow: 5px 5px #04123b;
+	transition: 0.1s ease;
+}
+@media (min-width:1101px) and (max-width:1500px){
+	.mobileview{
+		display: flex;
+		
+		margin-top: -20px;
+	}
+}
   @media(min-width:0) and (max-width:1100px) {
 	.heading{
 		font-size: 32px;
@@ -177,7 +211,8 @@
 	}
 	.mobileview{
 		display: flex;
-		
+		margin-bottom: -5px;
+		margin-top: -5px;
 	}
 	.mobileview li{
 		font-weight: 500;
