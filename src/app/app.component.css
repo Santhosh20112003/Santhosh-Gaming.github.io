@@ -171,16 +171,17 @@
 	/* background: linear-gradient(to right, #000066 0%, #9900cc 100%); */
 	background: linear-gradient(to bottom right, #000066 22%, #3399ff 85%);
 	 position:fixed;
-	 bottom:20px;
-	 right:20px;
+	 bottom:10px;
+	 right:10px;
 	 z-index: 10;
+	 transform: scale(0.8);
 	 /* outline: 2px solid #212121; */
 	 transition: 0.1s ease all;
 }
 .bot:active{
 	box-shadow: 0 0 30px #04123b;
 	transition: 0.1s ease all;
-	transform: scale(1.08);
+	transform: scale(0.9);
 }
 .topbutton{
 	width: 50px;
@@ -188,8 +189,9 @@
 	border-radius: 20%;
 	 background-color: #04123b;
 	 position:fixed;
-	 bottom:23px;
-	 left:20px;
+	 bottom:20px;
+	 left:10px;
+	 transform: scale(0.8);
 	 z-index: 10;
 	 transition: 0.3s ease;
 }
@@ -245,7 +247,7 @@
 		font-size: 30px;
 		cursor: pointer;
 		width: 48%;
-		
+		transform: scale(0.8);
 		margin-bottom:10px;
 		opacity: 0.9;
 	  }	  
@@ -257,6 +259,7 @@
 		font-size: 30px;
 		cursor: pointer;
 		width: 48%;
+		transform: scale(0.8);
 		border-radius: 5px;
 		margin-bottom:10px;
 		opacity: 0.9;
