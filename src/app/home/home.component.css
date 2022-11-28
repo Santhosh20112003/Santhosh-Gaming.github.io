@@ -84,11 +84,11 @@
   
   .nav{
    transition: 0.3s ease-out;
-   border-bottom: 3px solid transparent;
+   border-bottom: 2px solid transparent;
   }
   .nav:hover{
 	
-	border-bottom: 3px solid #04123b;
+	border-bottom: 2px solid #04123b;
 	transition: 0.3s ease-in;
   }
   .latest{
@@ -227,11 +227,12 @@
 	z-index: 5;
    }
    .menu a{
-	padding: 10px;
-	border-bottom: 5px solid #04123b;
+	padding: 6px 10px;
+	margin-top: 10px;
+	border-bottom: 2px solid #04123b;
    }
    .menu a:hover{
-	border-bottom: 5px solid #fff;
+	border-bottom: 3px solid #fff;
    }
    .contents{
 	gap: 2%;
@@ -406,7 +407,6 @@
 			padding: none;
 		}
 		.heading__cat h1{
-			
 			font-size: 2rem;
 			text-align: center;
 		}
@@ -424,10 +424,11 @@
 			transform: scale(1.05);
 		}
 		.he{
-			font-size: 1rem;
+			font-size: 22px;
 		}
 		.box-2{
-			height: 20%;
+			height: 30%;
+			width: 80%;
 		}
 	}
   
@@ -436,4 +437,10 @@
 	   .slide__main{
 		margin-top: -30%;
 	   }
+  }
+  @media (max-width:483px){
+	.hero{
+	  height: 350px;
+	  background-size: cover;
+	}
   }

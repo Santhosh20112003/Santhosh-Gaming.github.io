@@ -96,7 +96,7 @@
 	.hero-1 h1{
 		text-align: center;
 		font-size: 4rem;
-		letter-spacing: 20px;
+		letter-spacing: 10px;
 		color: #fff;
 		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	}
@@ -105,7 +105,7 @@
 	.hero-1{
 	  margin-top: -26px;
 	  background-size: cover;
-	  
+	  height: 350px;
 	}
   }
   @media (min-width: 484px) and (max-width: 1166px) { 
