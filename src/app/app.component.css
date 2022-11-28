@@ -174,7 +174,13 @@
 	 bottom:20px;
 	 right:20px;
 	 z-index: 10;
-	 transition: 0.1s ease;
+	 /* outline: 2px solid #212121; */
+	 transition: 0.1s ease all;
+}
+.bot:active{
+	box-shadow: 0 0 30px #04123b;
+	transition: 0.1s ease all;
+	transform: scale(1.08);
 }
 .topbutton{
 	width: 50px;
@@ -182,15 +188,86 @@
 	border-radius: 20%;
 	 background-color: #04123b;
 	 position:fixed;
-	 bottom:20px;
+	 bottom:23px;
 	 left:20px;
 	 z-index: 10;
-	 transition: 0.1s ease;
+	 transition: 0.3s ease;
+}
+.topbutton:hover{
+	box-shadow: 4px 4px #1976d2;
+	transition: 0.3s ease;
 }
 .topbutton:active{
-	box-shadow: 5px 5px #04123b;
+	box-shadow: 0px 0px #1976d2;
 	transition: 0.1s ease;
 }
+
+	.chat-popup {
+		position: fixed;
+		border-radius: 20px;
+		bottom: 100px;
+		right: 50px;
+		background-color: #fff;
+		z-index: 9;
+		box-shadow: 10px 10px 20px #212121;
+	  }
+	  .form-container {
+		max-width: 300px;
+		max-height: 300px;
+		padding: 10px;
+		border-radius: 10px;
+		background-color: white;
+	  }	
+	  .form-container textarea {
+		width: 100%;
+		padding: 15px;
+		margin: 5px 0 22px 0;
+		border-radius: 10px;
+		border: none;
+		background: #f1f1f1;
+		resize: none;
+		caret-color: #1976d2;
+		min-height: 100px;
+	  }
+	  .form-container textarea:focus {
+		background-color: #ddd;
+		outline: none;
+	  }
+	  ::placeholder{
+		color: #4a4848;
+		font-size: 1rem;
+	  }
+	  .form-container .btn {
+		background-color: #04AA6D;
+		color: white;
+		padding: 8px 20px;
+		border: none;
+		font-size: 30px;
+		cursor: pointer;
+		width: 48%;
+		
+		margin-bottom:10px;
+		opacity: 0.9;
+	  }	  
+	  .form-container .btn-2 {
+		background-color: #02bd79;
+		color: white;
+		padding: 8px 15px 8px 15px;
+		border: none;
+		font-size: 30px;
+		cursor: pointer;
+		width: 48%;
+		border-radius: 5px;
+		margin-bottom:10px;
+		opacity: 0.9;
+	  }	  
+	  .form-container .cancel {
+		background-color: red;
+	  }
+	  .form-container .btn:hover, .open-button:hover,.form-container .btn-2:hover {
+		opacity: 1;
+	  }
+
 @media (min-width:1101px) and (max-width:1500px){
 	.mobileview{
 		display: flex;
@@ -225,5 +302,10 @@
 	}
 	.toolbar{
 		padding-top: 20px;
+	}
+	.chat-popup{
+		transform: scale(0.8);
+		bottom: 70px;
+		right: 5px;
 	}
   }

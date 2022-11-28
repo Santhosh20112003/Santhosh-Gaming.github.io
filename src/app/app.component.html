@@ -1,7 +1,21 @@
 <div class="topbutton d-flex align-items-center justify-content-center " >
 	<a href="#head" class="mt-2"><fa-icon  [icon]="FaAngleUp" class="FaAngleUp fa-2x" style="color: #fff;"></fa-icon></a>
 </div>
-<div class="bot d-flex align-items-center justify-content-center " >
+<div class="chat-popup" id="myForm" [class]="col">
+	<form  class="form-container">
+	  <h1>Chat <fa-icon  [icon]="icon" class="icon " style="color:  #B42033;" ></fa-icon></h1>
+  
+	  <label for="msg"><b>Message</b></label>
+	  <textarea placeholder="Type message.." name="msg" required></textarea>
+  
+	<div>
+		<button type="submit" class="btn me-2">Send</button>
+		<button type="submit" class="btn-2 bg-danger text-dark" (click)="myfunc()" >Cancel</button>
+	</div>
+	  
+	</form>
+  </div>
+<div class="bot d-flex align-items-center justify-content-center " (click)="myfunc()" >
 	<a href="#head" class="mt-2"><fa-icon  [icon]="Bots" class="Bots fa-2x" style="color: #fff;"></fa-icon></a>
 </div>
 <div class="toolbar" id="head" role="banner">
