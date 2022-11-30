@@ -1,23 +1,51 @@
-.hero-1{
-	width:100%; 
+.gameroom{
+	width: 55%;
+	height: 85%;
+	background-color: transparent;
+}
+.communitycontent{
+	width: 45%;
+	height: 100%;
 	display: flex;
-	align-items: center ;
+	flex-direction: column;
 	justify-content: center;
-	background-image: url("/assets/img/h.jpeg");
-	background-size: cover;
-	background-position: center;
-	background-origin: border-box;
+	align-items: center;
+}
+.communitycontent h2{
+	font-size: 2rem;
+	color: #fff;
+	font-family: 'Secular One', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.play{
+	border: 2px solid #73b501;
+	color: #73b501;
+	font-size: 24px;
+	font-family: 'Chakra Petch', sans-serif;
+}
+.play:hover{
+	background-color: #73b501;
+	color: #fff;
+}
+.communitycontent h1{
+	font-size: 5rem;
+	letter-spacing: 10px;
+	color: #fff;
+	font-family: 'Chakra Petch', sans-serif;
+}
+.hero-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(11, 11, 81);
+	
 	margin-top: -100px;
 	height: 600px;
 	width: 100%;
 	z-index: -1;	
 }
-.hero-1 h1{
-	font-size: 8rem;
-	letter-spacing: 20px;
-	color: #fff;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
+
 .contents{
 	gap: 2%;
    }
