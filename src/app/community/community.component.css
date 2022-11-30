@@ -1,6 +1,6 @@
 .gameroom{
 	width: 55%;
-	height: 85%;
+	height: 90%;
 	background-color: transparent;
 }
 .communitycontent{
@@ -10,6 +10,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-left: 20px;
 }
 .communitycontent h2{
 	font-size: 2rem;
@@ -21,6 +22,8 @@
 	border: 2px solid #73b501;
 	color: #73b501;
 	font-size: 24px;
+/* position: absolute; */
+margin-top: 20px;
 	font-family: 'Chakra Petch', sans-serif;
 }
 .play:hover{
@@ -38,56 +41,57 @@
 	justify-content: center;
 	align-items: center;
 	background-color: rgb(11, 11, 81);
-	
 	margin-top: -100px;
 	height: 600px;
 	width: 100%;
 	z-index: -1;	
 }
+.cards{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 5%;
+	gap: 3%;
+	justify-content: center;
+}
+.card{
+	margin-top: 3%;
+	background-color: #212121;
+	color: #fff;
+}
 
-
-.contents{
-	gap: 2%;
-   }
-   .contents img{
-	width: 250px;
-	height: 48%;
-	margin-top: 4%;
-	border-radius: 10px;
-	transition: 0.3s ease-out;
-   }
-   .contents img:hover{
-	box-shadow: 0 10px #fff;
-	transform: scale(1.06);
-	transition: 0.3s ease-in;
-   }
-   .contents img:nth-child(10):hover{
-	box-shadow: 10px 10px #7bce60;
-	transform: scale(1.06);
-	transition: 0.3s ease-in;
-   }
-   @media (min-width:0) and (max-width:815px){
-	.hero-1 h1{
-		text-align: center;
-		font-size: 3rem;
-		text-shadow: 10px 5px 10px #21212180;
-		letter-spacing: 10px;
+@media (min-width:0) and (max-width:1230px) {
+	.hero-1{
+		margin-top: -6%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	justify-content: space-around;
+	height: 700px;
+	}
+	.communitycontent{
+		width: 100%;
+		height: 40%;
+		margin: 0px;
+		transform: translateY(-5%);
+	}
+	.gameroom{
+		width: 100%;
+		height: 60%;
+		transform: translateY(-10%);
+	}
+	.communitycontent h1{
+		font-size: 40px;
+	}
+	.communitycontent h2{
+		font-size: 26px;
+	}
+	.play{
+		position: absolute;
+	    margin-top:10% ;
+        background-color: #73b501;
 		color: #fff;
-		font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	}
-   }
-   @media (max-width:483px){
-	.hero-1{
-	  margin-top: -26px;
-	  height: 350px;
-	  background-size: cover;
-	  /* background-position: -100px -20px; */
-	 
-	}
-  }
-  @media (min-width: 484px) and (max-width: 1166px) { 
-	.hero-1{
-	  margin-top: -30px;
-	
+		z-index: 5;
 	}
 }

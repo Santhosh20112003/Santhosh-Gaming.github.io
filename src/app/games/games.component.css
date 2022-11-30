@@ -57,15 +57,9 @@ a{
    }
    @media (max-width:483px){
 	.hero-1{
-	  margin-top: -26px;
+		margin-top: -6%;
 	  height: 350px;
 	  background-size: auto 500px;
 	 
 	}
   }
-  @media (min-width: 484px) and (max-width: 1166px) { 
-	.hero-1{
-	  margin-top: -30px;
-	
-	}
-}
