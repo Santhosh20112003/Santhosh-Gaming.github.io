@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {faAngleUp ,faRobot,faHeart} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-instant',
@@ -11,6 +12,7 @@ export class InstantComponent implements OnInit {
     let methodToBeInvoked = elem.requestFullscreen;
     if (methodToBeInvoked) methodToBeInvoked.call(elem);
 }
+FaAngleUp = faAngleUp;
   constructor() { }
 
   ngOnInit(): void {

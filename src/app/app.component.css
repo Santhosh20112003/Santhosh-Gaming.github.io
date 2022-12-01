@@ -73,6 +73,7 @@
   }
   
   .nav{
+	position: relative;
    cursor: pointer;
    transition: 0.3s ease-out;
    border-bottom: 3px solid transparent;
@@ -87,10 +88,27 @@
   .clicked{
 	color: #04123b;
 	border-radius: 2px;
-	border-bottom: 3px solid #04123b;
 	transform: scale(1.2);
-	transition: 0.3s ease-in;
+    border-bottom: 15% solid #04123b;	
+    position: relative;
   }
+ 
+.nav:after{
+    content:"";
+    position:absolute;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #04123b;
+    transition: .3s;
+    bottom:0;
+    transition: 0.3s ease all;
+}
+.nav:active::after{
+    height: 18%;
+    transition: 0.3s ease all;
+    
+}
   .hero__box{
 	margin-bottom: -40%;
   }
@@ -306,5 +324,28 @@
 		transform: scale(0.8);
 		bottom: 70px;
 		right: 5px;
+	}
+	.clicked{
+		color: #04123b;
+		border-radius: 2px;
+		transform: scale(1.2);
+		border-bottom: 3px solid #04123b;
+	  }
+	  .nav:after{
+		content:"";
+		position:absolute;
+		left: 0;
+		width: 100%;
+		height: 0;
+		background-color: #04123b;
+		transition: .3s;
+		bottom:0;
+		
+		transition: 0.3s ease all;
+	}
+	.nav:active::after{
+		height: 0%;
+		transition: 0.3s ease all;
+		
 	}
   }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {} from "@google/model-viewer";
+import {faAngleUp ,faRobot,faHeart} from '@fortawesome/free-solid-svg-icons'
 
 @Component({
   selector: 'app-community',
@@ -10,7 +11,7 @@ import {} from "@google/model-viewer";
 export class CommunityComponent implements OnInit {
   public name="";
   isFavorite :boolean=false;
-  
+  FaAngleUp = faAngleUp;
   View="View";
   More="More";
   count= 1;

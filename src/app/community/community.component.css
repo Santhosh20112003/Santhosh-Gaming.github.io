@@ -55,7 +55,7 @@ margin-top: 20px;
 	transition: 2s ease;
 }
 .card{
-	border-radius: 20px;
+	border-radius:0 0 20px 20px;
 	margin-top: 3%;
 	background-color: #212121;
 	color: #fff;
@@ -63,11 +63,14 @@ margin-top: 20px;
 }
 .card img{
 	height: 300px;
-	overflow: hidden;
+    opacity: 0.7;
 }
 .card img:hover{
     transform: scaleX(1.08) scaleY(1.04);
 	transition: 0.3s ease-in-out;
+	opacity: 1;
+	border: 3px solid #fff;
+	border-radius: 2%
 }
 
 .tournaments{
@@ -165,8 +168,37 @@ margin-top: 20px;
 	  .hash{
 		display: none;
 	  }
+	  .card img{
+		transition: 0.3s ease-in-out;
+		border: none;
+		opacity: 1;
+		transform: scale(1.06) scaleX(1.07);
+	  }
 	  .card img:hover{
-		transform: scale(1.1);
+		
 		transition: 0.3s ease-in-out;
 	}
+}
+.topbutton{
+	width: 50px;
+	height:50px;
+	border-radius: 20%;
+	 background-color: #f26522;
+	 position:fixed;
+	 bottom:20px;
+	 left:10px;
+	 transform: scale(0.8);
+	 z-index: 10;
+	 transition: 0.3s ease;
+}
+.topbutton:hover{
+	box-shadow: 4px 4px #0b0b51;
+	transition: 0.3s ease;
+}
+.topbutton:active{
+	box-shadow: 0px 0px #0b0b51;
+	transition: 0.1s ease;
+}
+.up{
+	text-shadow: 5px 5px #fff;
 }
