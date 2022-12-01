@@ -40,7 +40,7 @@ margin-top: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgb(11, 11, 81);
+	background-color: #0b0b51;
 	margin-top: -100px;
 	height: 600px;
 	width: 100%;
@@ -50,19 +50,65 @@ margin-top: 20px;
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	padding: 5%;
 	gap: 3%;
 	justify-content: center;
+	transition: 2s ease;
 }
 .card{
+	border-radius: 20px;
 	margin-top: 3%;
 	background-color: #212121;
 	color: #fff;
+	border: none;
+}
+.card img{
+	height: 300px;
+	overflow: hidden;
+}
+.card img:hover{
+    transform: scaleX(1.08) scaleY(1.04);
+	transition: 0.3s ease-in-out;
+}
+
+.tournaments{
+	background-color: #f26522;
+	height: max-content ;
+	padding-bottom: 2%;
+}
+.tournaments > h1{
+	font-size: 5rem;
+	padding: 5% 5% 0% 5%;
+	color: #0b0b51;
+	font-family: 'Chakra Petch', sans-serif;
+}
+.viewmore{
+	/* display: none; */
+	transform: translateY(10%);
+	background-color: #212121;
+	color: #fff;
+	text-align: center;
+	font-family: 'Chakra Petch', sans-serif;
+	
+}
+.viewmore span{
+	
+	transition: 0.3s all ease-out;
+}
+.viewmore span:nth-child(1){
+	margin-right: 5px;
+}
+.viewmore:active  span:nth-child(1){
+	margin-right: 20px;
+	color: #0b0b51;
+	transition: 0.3s all ease-out;
+  }
+.viewmore:active span:nth-child(2){
+	color: #0b0b51;
 }
 
 @media (min-width:0) and (max-width:1230px) {
 	.hero-1{
-		margin-top: -6%;
+	margin-top: -6%;
 	padding: 20px;
 	display: flex;
 	flex-direction: column-reverse;
@@ -93,5 +139,34 @@ margin-top: 20px;
         background-color: #73b501;
 		color: #fff;
 		z-index: 5;
+	}
+	.tournaments > h1{
+		font-size: 3rem;
+		padding: 10% 0% 0% 5%;
+		color: #0b0b51;
+		font-family: 'Chakra Petch', sans-serif;
+	}
+	.tournaments{
+		background-color: #f26522;
+	}
+	.card{
+		border-radius: 20px;
+	}
+	.card img{
+		border-radius: 20px;
+	}
+	.cards{
+		gap: 10px;
+	}
+	  .viewmore{
+		display: flex;
+		transform: translateY(0);
+	  }
+	  .hash{
+		display: none;
+	  }
+	  .card img:hover{
+		transform: scale(1.1);
+		transition: 0.3s ease-in-out;
 	}
 }

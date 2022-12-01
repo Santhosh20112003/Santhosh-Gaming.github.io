@@ -138,11 +138,7 @@
   .display-3{
 	padding: 100px 20px 20px 20px;
   }
-  ::-webkit-scrollbar {
-	height: 10px;
-	background-color: #fff;
-	margin-top: 10px;
-  }
+ 
   .img-slider{
 	height: max-content;
 	background-image: url("/assets/img/p.webp");
