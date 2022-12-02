@@ -83,3 +83,7 @@ a{
 	box-shadow: 0px 0px #04123b;
 	transition: 0.1s ease;
 }
+.all{
+	background-color: #04123b;
+	padding-bottom: 5%;
+}

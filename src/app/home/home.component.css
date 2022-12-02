@@ -407,20 +407,8 @@
 		.carousel{
 			display: none;
 		}
-		.con{
-          display: flex;
-		  flex-direction: column;
-		  align-items: center;
-		  justify-content: space-evenly;
-		  width: 100%;
-		  height: max-content;
-		  padding: 2%;
-		  width: 100%;
-		}
-		.op1 p{
-			width: 100%;
-			padding: none;
-		}
+		
+		
 		.heading__cat h1{
 			font-size: 2rem;
 			text-align: center;

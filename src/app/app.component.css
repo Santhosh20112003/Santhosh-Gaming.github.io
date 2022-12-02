@@ -179,6 +179,20 @@
 	display: none;
 	background-color: #1976d2;
 }
+.con{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+	height: max-content;
+	padding: 2%;
+	width: 100%;
+  }
+  .op1 p{
+	width: 100%;
+	padding: none;
+}
 .bot{
 	width: 70px;
 	height:70px;
