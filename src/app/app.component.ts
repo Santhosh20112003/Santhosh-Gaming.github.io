@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {faAngleUp ,faRobot,faHeart} from '@fortawesome/free-solid-svg-icons'
+import {faAngleUp ,faRobot,faHeart,faHouse,faAlignRight,faUsers,faPuzzlePiece,faBars} from '@fortawesome/free-solid-svg-icons'
 import {faBots} from '@fortawesome/free-brands-svg-icons'
 
 
@@ -10,8 +10,13 @@ import {faBots} from '@fortawesome/free-brands-svg-icons'
 })
 export class AppComponent {
   FaAngleUp = faAngleUp;
+  group=faBars;
   Bots = faRobot;
   icon = faHeart;
+  house=faHouse;
+  allgames=faAlignRight;
+  community =faUsers;
+  instant= faPuzzlePiece;
   val = 0;
   public col ="d-none";
   myfunc(){
