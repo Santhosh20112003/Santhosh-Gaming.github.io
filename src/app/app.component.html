@@ -31,26 +31,27 @@
 	  <h1 class="mt-3 heading">Santhosh Gaming</h1>
   </span>
   <section class=" align-items-center py-3 justify-content-around mobileview" >
-	<button class="btn  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><fa-icon  [icon]="group" class="group fa-2x" style="color: #fff;"></fa-icon></button>
+	<button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><fa-icon  [icon]="group" class="group fa-2x" style="color: #fff;"></fa-icon></button>
 
-	<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+	<div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel"  >
 	  <div class="offcanvas-header justify-content-end" style="background-color: #1976d2;">
-		<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		<button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas">
+		</button>
 	  </div>
 	  <div class="offcanvas-body d-flex flex-column align-items-center justify-content-center gap-3" style="background-color: #1976d2;">
-      <a routerLink="/home"><div class="btn w-70  rounded-1  px-2 d-flex align-items-center justify-content-start" style="background-color: #1976d2; color: #fff;">
+      <a routerLink="/home" data-bs-dismiss="offcanvas" ><div class="btn w-70  rounded-1  px-2 d-flex align-items-center justify-content-start" style="background-color: #1976d2; color: #fff;">
 		<fa-icon  [icon]="house" class="house fa-2x" ></fa-icon>
 		<p style="margin-top: 14%;" class="fs-3 ms-2"  >HOME</p>
 	  </div></a>
-	<a routerLink="/games">  <div class="btn w-70 rounded-1 px-2 d-flex align-items-center justify-content-start" style="background-color: #1976d2;color: #fff;">
+	<a routerLink="/games" data-bs-dismiss="offcanvas">  <div class="btn w-70 rounded-1 px-2 d-flex align-items-center justify-content-start" style="background-color: #1976d2;color: #fff;">
 		<fa-icon  [icon]="allgames" class="allgames fa-2x" ></fa-icon>
 	    <p style="margin-top: 10%;" class="fs-3 ms-2" >ALL GAMES</p>
 	</div></a>
-	  <a routerLink="/instant"><div class="btn w-70 rounded-1 px-2 d-flex align-items-center justify-content-start" style="background-color: #1976d2;color: #fff;">
+	  <a routerLink="/instant" data-bs-dismiss="offcanvas"><div class="btn w-70 rounded-1 px-2 d-flex align-items-center justify-content-start" style="background-color: #1976d2;color: #fff;">
 		<fa-icon  [icon]="instant" class="instant fa-2x" ></fa-icon>
-		<p style="margin-top: 10%;" class="fs-3 ms-2" >INSTANT GAMES</p>
+		<p style="margin-top: 10%;" class="fs-2 ms-2" >INSTANTS</p>
 	  </div></a>
-	  <a routerLink="/community"><div class="btn w-70  rounded-1 px-2 d-flex align-items-center justify-content-start" style="background-color: #1976d2;color: #fff;" >
+	  <a routerLink="/community" data-bs-dismiss="offcanvas"><div class="btn w-70  rounded-1 px-2 d-flex align-items-center justify-content-start" style="background-color: #1976d2;color: #fff;" >
 		<fa-icon  [icon]="community" class="house fa-2x"></fa-icon>
 		<p style="margin-top: 10%;" class="fs-3 ms-2" >COMMUNITY</p>
 	  </div></a>
