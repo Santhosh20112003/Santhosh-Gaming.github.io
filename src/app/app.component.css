@@ -203,6 +203,7 @@
 	 bottom:80px;
 	 right:10px;
 	 transform: scale(0.8);
+	 z-index: 10;
 }
 .bot{
 	width: 70px;
