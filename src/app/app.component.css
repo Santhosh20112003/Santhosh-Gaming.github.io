@@ -193,6 +193,17 @@
 	width: 100%;
 	padding: none;
 }
+.bot-2{
+	width: 70px;
+	height:70px;
+	border-radius: 50%;
+	background-color: #f26522;
+	color: #fff;
+	position:fixed;
+	 bottom:80px;
+	 right:10px;
+	 transform: scale(0.8);
+}
 .bot{
 	width: 70px;
 	height:70px;

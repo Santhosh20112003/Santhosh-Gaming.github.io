@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {faAngleUp ,faRobot,faHeart,faHouse,faAlignRight,faUsers,faPuzzlePiece,faBars} from '@fortawesome/free-solid-svg-icons'
+import {faAngleUp ,faRobot,faHeart,faHouse,faAlignRight,faUsers,faPuzzlePiece,faBars,faDownload} from '@fortawesome/free-solid-svg-icons'
 import {faBots} from '@fortawesome/free-brands-svg-icons'
 
 
@@ -18,6 +18,7 @@ export class AppComponent {
   allgames=faAlignRight;
   community =faUsers;
   instant= faPuzzlePiece;
+  download =faDownload;
   val = 0;
   count = 0;
   public col ="d-none";
