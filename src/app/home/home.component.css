@@ -393,12 +393,21 @@
 	@media(min-width:0) and (max-width:1100px) {
 		.card-img-top{
 			height: 100%;
+			width: 100%;
 		   }
+		   .card{
+			min-width: 200px;
+		   }
+		   .card:hover{
+			box-shadow: 0 0 20px #21212180;
+			transform: scale(1.04);
+			transition: 0.3s ease;
+		  }
 		   .box{
-			height: 50%;
+			height: 55%;
 		   }
 		.slide__main{
-			height: 700px;
+			height: 500px;
 		}
 		.hero{
 			height: 500px;
@@ -414,7 +423,7 @@
 			text-align: center;
 		}
 		.h{
-			font-size: 10px !important;
+			font-size: 11px !important;
             font-weight: 500;
 		}
 		.try h1{
