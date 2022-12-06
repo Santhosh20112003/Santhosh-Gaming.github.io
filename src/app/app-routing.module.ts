@@ -13,10 +13,8 @@ const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path:'instant',component:InstantComponent},
   {path:'**',component:ErrorComponent},
-  {path: 'games', redirectTo:'/games', pathMatch: 'full'},
-  {path: '', redirectTo:'/home', pathMatch: 'full'},
-  {path: 'community', redirectTo:'/community', pathMatch: 'full'},
-  {path: 'instant', redirectTo:'/instant', pathMatch: 'full'}
+  {path: '', redirectTo:'/home', pathMatch: 'full'}
+
  
 ];
 
