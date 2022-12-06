@@ -16,9 +16,35 @@
 <div class="bot d-flex align-items-center justify-content-center " (click)="myfunc()" >
 	<a  class="mt-2"><fa-icon  [icon]="Bots" class="Bots fa-2x" style="color: #fff;"></fa-icon></a>
 </div>
-
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5 fw-bold" id="staticBackdropLabel">Download</h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body d-flex align-items-center justify-content-start gap-2">
+			<img
+			width="50"
+			alt="Gaming Logo"
+			src="/assets/img/black-logo.png"
+			/>
+		<p class="mt-3 fs-5" >Santhosh-Gaming.apk</p>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <a href="/assets/img/download/Santhosh-Gaming.apk" download><button type="button" class="btn btn-primary">Download</button></a>
+		</div>
+	  </div>
+	</div>
+  </div>
 <div class="bot-2 d-flex align-items-center justify-content-center " >
-	<a  href="/assets/img/download/app.apk" download><fa-icon  [icon]="download" class="download fa-2x" style="color: #fff;"></fa-icon></a>
+	<a  >
+		<button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+			<fa-icon  [icon]="download" class="download fa-2x" style="color: #fff;"></fa-icon>
+		  </button>
+		
+	</a>
 </div>
 <div class="toolbar" id="head" role="banner">
 	<span class="d-flex fw-bold justify-content-center align-items-center gap-5 fs-4">
