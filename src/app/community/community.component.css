@@ -46,6 +46,44 @@ margin-top: 20px;
 	width: 100%;
 	z-index: -1;	
 }
+.contact-box input{
+	width: 50% !important;
+	box-shadow: #0b0b5130 0 0 20px;
+}
+.contact-box h1{
+	font-family: 'Chakra Petch', sans-serif;
+}
+.snack{
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+.contact{
+	background-color:whitesmoke;
+}
+.contribute button{
+	width: 150px;
+	height: 80px;
+	font-size: xx-large;
+}
+.doodle{
+	transform: scale(1.1);
+	transition: 0.3s ease;
+}
+.contribute button:hover .doodle{
+	transform: rotate(20deg) scale(1.12);
+	transition: 0.3s ease;
+}
+
+.position-absolute{
+	width: 70px;
+	height: 40px;
+	font-size: medium;
+}
+.c{
+	width: 100px;
+	height: 40px;
+	font-size: medium;
+}
 .cards{
 	display: flex;
 	align-items: center;
@@ -113,7 +151,7 @@ margin-top: 20px;
   }
 .viewmore:active span:nth-child(2){
 	color: #f26522;
-}
+} 
 
 @media (min-width:0) and (max-width:1230px) {
 	.hero-1{
@@ -124,6 +162,52 @@ margin-top: 20px;
 	align-items: center;
 	justify-content: space-around;
 	height: 700px;
+	}
+	.contact{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: 700px !important;
+		
+	}
+	.contact-box input{
+        width: 70% !important;
+	}
+	.map{
+		height: 100%;
+	}
+	.snack > h1{
+		
+		font-size: 35px;
+		margin-bottom: 5%;
+	}
+	.contribution{
+		flex-direction: column;
+		width: 100%;
+		height: max-content !important;
+	}
+	.contribution > img{
+		width: 100%;
+		margin-bottom: 5%;
+	}
+	
+	.contribute button:nth-child(3){
+		margin-top: 10%;
+	}
+	.contribute button:nth-child(4){
+		margin-top: 10%;
+	}
+	.contribute{
+		margin-top: 10%;
+	}
+	.one{
+		width: 100% !important;
+		height: 70% !important;
+	}
+
+	.two{
+		width: 100% !important;
+		height: 30% !important;
 	}
 	.communitycontent{
 		width: 100%;
@@ -225,7 +309,23 @@ margin-top: 20px;
 	box-shadow: 0px 0px #0b0b51;
 	transition: 0.1s ease;
 }
-
+.map-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 30px;
+  }
+  
+  .map-frame {
+	border: 2px solid black;
+	height: 100%;
+  }
+  
+  #map {
+	height: 100%;
+  }
 .teamup{
 	padding: 2% 0;
 	background-color: #5fa9f4;
