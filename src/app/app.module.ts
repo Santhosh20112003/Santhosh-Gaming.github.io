@@ -14,6 +14,7 @@ import { ErrorComponent } from './error/error.component';
 import { InstantComponent } from './instant/instant.component';
 import { CommunityComponent } from './community/community.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HttpClientModule } from '@angular/common/http'
 // import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
 @NgModule({
@@ -36,7 +37,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
