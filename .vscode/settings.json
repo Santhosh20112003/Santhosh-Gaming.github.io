@@ -1,3 +1,4 @@
 {
-	"livePreview.defaultPreviewPath": "d:\\Sathosh Documents\\Angular\\angularProject\\portfolio\\src\\app\\app.component.html"
+	"livePreview.defaultPreviewPath": "d:\\Sathosh Documents\\Angular\\angularProject\\portfolio\\src\\app\\app.component.html",
+	"liveServer.settings.port": 5501
 }
