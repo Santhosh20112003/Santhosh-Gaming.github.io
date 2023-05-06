@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-3 mx-auto my-5" *ngFor="let card of data">
+        <div class="card" style="width: 18rem;">
+            <img src="{{card.link}}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{card.games}}</h5>
+              <p class="card-text">{{card.category}}</p>
+              <p class="card-text">Play some better games at SanthoshTechnologies</p>
+              <a href="#" class="btn btn-primary">Purchase</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>

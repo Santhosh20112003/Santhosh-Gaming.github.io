@@ -14,7 +14,8 @@ import { ErrorComponent } from './error/error.component';
 import { InstantComponent } from './instant/instant.component';
 import { CommunityComponent } from './community/community.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { RestComponent } from './rest/rest.component'
 // import {AngularFontAwesomeModule} from 'angular-font-awesome';
 
 @NgModule({
@@ -28,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http'
     HomeComponent,
     ErrorComponent,
     InstantComponent,
-    CommunityComponent
+    CommunityComponent,
+    RestComponent,
   ],
   schemas:[
     CUSTOM_ELEMENTS_SCHEMA
