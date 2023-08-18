@@ -31,6 +31,7 @@
     "fontawesome": "^5.6.3",
     "leaflet": "^1.9.3",
     "rxjs": "~7.5.0",
+    "swiper": "^9.3.1",
     "tslib": "^2.3.0",
     "uikit": "^3.15.17-dev.fa9261722",
     "zone.js": "~0.11.4"

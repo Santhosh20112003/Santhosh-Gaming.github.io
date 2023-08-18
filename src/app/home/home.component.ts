@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import {faRocket,faAngleUp} from '@fortawesome/free-solid-svg-icons'
+import {faRocket,faAngleUp} from '@fortawesome/free-solid-svg-icons';
+
+
+import 'swiper/swiper-bundle.min.css';
 
 @Component({
   selector: 'app-home',
@@ -15,6 +18,8 @@ export class HomeComponent implements OnInit {
   FaAngleUp = faAngleUp;
   farocket = faRocket;
   constructor() { }
+
+ 
 
   ngOnInit(): void {
   }
